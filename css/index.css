@@ -1,0 +1,78 @@
+/*CSS RESET*/
+* {
+  box-sizing: border-box; /*tells element to respect the width we've given them, if we give an element padding or border, add that within the width*/
+  padding: 0;
+  margin: 0;
+  max-width: 100%; /*you can never be bigger than your parent container*/
+  border: 1px solid grey;
+}
+/* General Styles */
+
+html {
+  font-size: 62.5%; /*this makes math easier - 1rem now = 10px*/
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5; /*line height does not need a unit of measurement*/
+  font-family: "Nunito", sans-serif;
+  color: #4f4f4f;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+section {
+  padding: 4% 0; /*applies 4% to top and bottom of section and 0 to left and right, padding adds space on the inside of an element*/
+  background-color: #fffafa;
+}
+i {
+  font-size: 5rem;
+}
+
+/*Header Section Styles */
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 5%;
+}
+header nav {
+  position: fixed; /*makes the nav stay at the top of the page*/
+  width: 100%; /*we are telling the navigation to take up the whole length of the page*/
+  height: 10vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;
+}
+
+/* Farm Section Styles */
+#farm div {
+  background-color: #fff;
+  border: 3px solid #4f4f4f;
+  width: 20%;
+  padding: 5%;
+  text-align: center;
+}
+
+/*empty section styles*/
+.hero-image {
+  background-image: url("../images/dirt.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-position: center;
+}
