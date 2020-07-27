@@ -49,6 +49,7 @@ a {
 a:hover {
   color: #fcb131;
 }
+
 /* Homepage */
 header nav {
   display: flex;
@@ -100,6 +101,9 @@ header {
   background-position: center;
   height: 40vh;
 }
+
+/* products section */
+
 #products h2 {
   text-align: center;
   margin-bottom: 4%;
@@ -118,6 +122,9 @@ header {
 #products .container div i {
   margin: 4% 0;
 }
+
+/* about section */
+
 #about {
   display: flex;
   justify-content: center;
@@ -133,6 +140,9 @@ header {
 #about .text p {
   text-align: justify;
 }
+
+/* Gallery section */
+
 .gallery .container {
   display: flex;
   flex-wrap: wrap;
@@ -176,6 +186,9 @@ header {
   background-size: cover;
   background-position: center;
 }
+
+/* contact section  */
+
 #contact h2 {
   text-align: center;
   margin-bottom: 5%;
@@ -195,6 +208,9 @@ header {
 #contact .container img {
   width: 75%;
 }
+
+/* Footer section */
+
 footer {
   display: flex;
   justify-content: space-evenly;
